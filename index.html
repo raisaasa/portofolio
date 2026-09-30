@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio Raissa Althaf Amira">
+    <title>Raissa Althaf Amira - Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Navbar -->
+        <nav>
+            <div class="logo">Raissa.dev</div>
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#projects">Projects</a>
+                <a href="#skills">Skills</a>
+                <a href="#experience">Experience</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
+
+        <!-- 1. Hero Section -->
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <h1>Halo, saya <br><span style="color: var(--accent-color);">Raissa Althaf Amira</span></h1>
+                <h2>Frontend Developer & UI/UX Designer Aspirant</h2>
+                <a href="assets/cv-raissa.pdf" class="btn btn-primary">Download CV</a>
+            </div>
+            <div class="hero-image">
+                <div class="image-placeholder">
+                    <img src="https://down-my.img.susercontent.com/file/sg-11134201-7rcbt-lsas4weqouov88" alt="" srcset="">
+                </div>
+            </div>
+        </section>
+
+        <!-- 2. Featured Projects -->
+        <section id="projects">
+            <h2 class="section-title">Featured <span>Projects</span></h2>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <h3 class="project-title">web Developer</h3>
+                    <p class="project-desc">
+                        <strong>Masalah:</strong>kesulitan dalam mengembangkan website.<br>
+                        <strong>Solusi:</strong> terus belajar bahasa pemograman.
+                    </p>
+                    <div class="tech-stack">
+                        <span class="tech-tag">HTML5</span>
+                        <span class="tech-tag">CSS3</span>
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">Bootstrap</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://demo-proyek.com" class="btn btn-primary" style="padding: 8px 16px; font-size: 0.9rem;">Live Demo</a>
+                        <a href="https://github.com/username/proyek-perpustakaan" class="btn btn-secondary" style="padding: 8px 16px; font-size: 0.9rem;">Repository</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. Tech Stack & Skills -->
+        <section id="skills">
+            <h2 class="section-title">Tech Stack & <span>Skills</span></h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3>Frontend Development</h3>
+                    <ul class="skill-list">
+                        <li>HTML5 & CSS3</li>
+                        <li>JavaScript (Basic)</li>
+                        <li>Responsive Web Design</li>
+                        <li>Git & GitHub</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Design & Tools</h3>
+                    <ul class="skill-list">
+                        <li>Figma (UI/UX)</li>
+                        <li>VS Code</li>
+                        <li>Canva</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. Experience & Milestones -->
+        <section id="experience">
+            <h2 class="section-title">Experience & <span>Milestones</span></h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Pelajar</h3>
+                        <span class="timeline-date">SMK Swasta Mandiri | Juli 2024 - Mei 2027</span>
+                        <p>Membantu tim pengembang dalam pembuatan komponen halaman antarmuka web dan melakukan pengujian tampilan pada berbagai ukuran layar.</p>
+                        <ul>
+                            <li>Membuat 5+ template halaman landing page menggunakan HTML dan CSS.</li>
+                            <li>Melakukan perbaikan bug minor pada tampilan visual antarmuka pengguna.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. About Me -->
+        <section id="about">
+            <h2 class="section-title">About <span>Me</span></h2>
+            <div class="about-content">
+                <p>
+                    Saya adalah siswi SMK Swasta Mandiri jurusan Rekayasa Perangkat Lunak (RPL) yang memiliki ketertarikan kuat pada dunia <i>Frontend Web Development</i> dan desain antarmuka pengguna (UI/UX). Saya senang memecahkan masalah melalui kode yang rapi serta menciptakan tampilan web yang estetis dan ramah pengguna.
+                </p>
+            </div>
+        </section>
+
+        <!-- 6. Contact & Footer -->
+        <section id="contact" style="padding-bottom: 0;">
+            <div class="contact">
+                <h2 class="section-title" style="margin-bottom: 1rem;">Get in <span>Touch</span></h2>
+                <form class="contact-form">
+                    <input type="text" placeholder="Nama Anda" required>
+                    <input type="email" placeholder="Email Anda" required>
+                    <textarea placeholder="Tulis pesan Anda di sini..." required></textarea>
+                    <button type="submit" class="btn btn-primary" style="width: 100%;">Kirim Pesan</button>
+                </form>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Raissa Althaf Amira. All rights reserved.</p>
+    </footer>
+</body>
+</html>
