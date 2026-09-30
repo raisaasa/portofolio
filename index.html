@@ -3,133 +3,389 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Portfolio Raissa Althaf Amira">
-    <title>Raissa Althaf Amira - Portfolio</title>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <title>Portfolio | Raissa Althaf Amira</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <div class="container">
-        <!-- Navbar -->
-        <nav>
-            <div class="logo">Raissa.dev</div>
-            <div class="nav-links">
-                <a href="#home">Home</a>
-                <a href="#projects">Projects</a>
-                <a href="#skills">Skills</a>
-                <a href="#experience">Experience</a>
-                <a href="#about">About</a>
-                <a href="#contact">Contact</a>
-            </div>
-        </nav>
 
-        <!-- 1. Hero Section -->
-        <section class="hero" id="home">
-            <div class="hero-content">
-                <h1>Halo, saya <br><span style="color: var(--accent-color);">Raissa Althaf Amira</span></h1>
-                <h2>Frontend Developer & UI/UX Designer Aspirant</h2>
-                <a href="assets/cv-raissa.pdf" class="btn btn-primary">Download CV</a>
-            </div>
-            <div class="hero-image">
-                <div class="image-placeholder">
-                    <img src="https://down-my.img.susercontent.com/file/sg-11134201-7rcbt-lsas4weqouov88" alt="" srcset="">
-                </div>
-            </div>
-        </section>
+    <!-- NAVBAR -->
+    <nav class="navbar">
 
-        <!-- 2. Featured Projects -->
-        <section id="projects">
-            <h2 class="section-title">Featured <span>Projects</span></h2>
-            <div class="projects-grid">
-                <!-- Project 1 -->
-                <div class="project-card">
-                    <h3 class="project-title">web Developer</h3>
-                    <p class="project-desc">
-                        <strong>Masalah:</strong>kesulitan dalam mengembangkan website.<br>
-                        <strong>Solusi:</strong> terus belajar bahasa pemograman.
-                    </p>
-                    <div class="tech-stack">
-                        <span class="tech-tag">HTML5</span>
-                        <span class="tech-tag">CSS3</span>
-                        <span class="tech-tag">JavaScript</span>
-                        <span class="tech-tag">Bootstrap</span>
-                    </div>
-                    <div class="project-links">
-                        <a href="https://demo-proyek.com" class="btn btn-primary" style="padding: 8px 16px; font-size: 0.9rem;">Live Demo</a>
-                        <a href="https://github.com/username/proyek-perpustakaan" class="btn btn-secondary" style="padding: 8px 16px; font-size: 0.9rem;">Repository</a>
-                    </div>
-                </div>
-            </div>
-        </section>
+        <div class="logo">
+            Raissa Althaf Amira<span>.</span>
+        </div>
 
-        <!-- 3. Tech Stack & Skills -->
-        <section id="skills">
-            <h2 class="section-title">Tech Stack & <span>Skills</span></h2>
-            <div class="skills-container">
-                <div class="skill-category">
-                    <h3>Frontend Development</h3>
-                    <ul class="skill-list">
-                        <li>HTML5 & CSS3</li>
-                        <li>JavaScript (Basic)</li>
-                        <li>Responsive Web Design</li>
-                        <li>Git & GitHub</li>
-                    </ul>
-                </div>
-                <div class="skill-category">
-                    <h3>Design & Tools</h3>
-                    <ul class="skill-list">
-                        <li>Figma (UI/UX)</li>
-                        <li>VS Code</li>
-                        <li>Canva</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#hobbies">Hobi</a>
+            <a href="#cv">CV</a>
+            <a href="#contact">Contact</a>
+        </div>
 
-        <!-- 4. Experience & Milestones -->
-        <section id="experience">
-            <h2 class="section-title">Experience & <span>Milestones</span></h2>
-            <div class="timeline">
-                <div class="timeline-item">
-                    <div class="timeline-content">
-                        <h3>Pelajar</h3>
-                        <span class="timeline-date">SMK Swasta Mandiri | Juli 2024 - Mei 2027</span>
-                        <p>Membantu tim pengembang dalam pembuatan komponen halaman antarmuka web dan melakukan pengujian tampilan pada berbagai ukuran layar.</p>
-                        <ul>
-                            <li>Membuat 5+ template halaman landing page menggunakan HTML dan CSS.</li>
-                            <li>Melakukan perbaikan bug minor pada tampilan visual antarmuka pengguna.</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </section>
+    </nav>
 
-        <!-- 5. About Me -->
-        <section id="about">
-            <h2 class="section-title">About <span>Me</span></h2>
-            <div class="about-content">
+
+    <!-- HERO -->
+    <section id="home" class="hero">
+
+        <div class="hero-text">
+
+            <p class="welcome">
+                WELCOME TO MY PORTFOLIO
+            </p>
+
+            <h1>
+                Halo, saya
+                <span>Raisa</span>
+            </h1>
+
+            <h2>
+                Pelajar | Makeup & Panahan
+            </h2>
+
+            <p class="description">
+                Saya adalah seorang pelajar yang memiliki
+                ketertarikan pada dunia makeup dan panahan.
+                Saya juga senang kuliner dan mencoba
+                berbagai hal baru.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#about" class="btn">
+                    Tentang Saya
+                </a>
+
+                <a href="#cv" class="btn-outline">
+                    Lihat CV
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <!-- FOTO PROFIL -->
+        <div class="profile-area">
+
+            <div class="profile-frame">
+
+                <img
+                    src="C:\Users\rafap\Downloads\WhatsApp Image 2026-09-30 at 22.49.52.jpeg"
+                    alt="Foto Raisa"
+                >
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+
+        <p class="section-label">
+            ABOUT ME
+        </p>
+
+        <h2 class="section-title">
+            Tentang <span>Saya</span>
+        </h2>
+
+        <p class="section-subtitle">
+            Kenali saya lebih dekat.
+        </p>
+
+
+        <div class="about-container">
+
+            <div class="about-card">
+
+                <h3>
+                    Halo, saya Raissa Althaf Amira!
+                </h3>
+
                 <p>
-                    Saya adalah siswi SMK Swasta Mandiri jurusan Rekayasa Perangkat Lunak (RPL) yang memiliki ketertarikan kuat pada dunia <i>Frontend Web Development</i> dan desain antarmuka pengguna (UI/UX). Saya senang memecahkan masalah melalui kode yang rapi serta menciptakan tampilan web yang estetis dan ramah pengguna.
+                    Saya adalah seorang pelajar yang senang
+                    mempelajari hal-hal baru dan mengembangkan
+                    kemampuan yang saya miliki.
                 </p>
-            </div>
-        </section>
 
-        <!-- 6. Contact & Footer -->
-        <section id="contact" style="padding-bottom: 0;">
-            <div class="contact">
-                <h2 class="section-title" style="margin-bottom: 1rem;">Get in <span>Touch</span></h2>
-                <form class="contact-form">
-                    <input type="text" placeholder="Nama Anda" required>
-                    <input type="email" placeholder="Email Anda" required>
-                    <textarea placeholder="Tulis pesan Anda di sini..." required></textarea>
-                    <button type="submit" class="btn btn-primary" style="width: 100%;">Kirim Pesan</button>
-                </form>
-            </div>
-        </section>
-    </div>
+                <p>
+                    Saya tertarik dengan dunia makeup karena
+                    makeup dapat menjadi salah satu cara untuk
+                    mengekspresikan kreativitas.
+                </p>
 
+                <p>
+                    Saya juga menyukai olahraga panahan karena
+                    melatih fokus, konsentrasi, ketelitian,
+                    dan kesabaran.
+                </p>
+
+            </div>
+
+
+            <div class="about-card">
+
+                <h3>
+                    Kemampuan Saya
+                </h3>
+
+                <div class="skill">
+
+                    <div class="skill-top">
+                        <span>Makeup</span>
+                        <span>80%</span>
+                    </div>
+
+                    <div class="skill-bar">
+                        <div class="skill-fill makeup"></div>
+                    </div>
+
+                </div>
+
+
+                <div class="skill">
+
+                    <div class="skill-top">
+                        <span>Panahan</span>
+                        <span>75%</span>
+                    </div>
+
+                    <div class="skill-bar">
+                        <div class="skill-fill archery"></div>
+                    </div>
+
+                </div>
+
+
+                <div class="skill">
+
+                    <div class="skill-top">
+                        <span>Kreativitas</span>
+                        <span>80%</span>
+                    </div>
+
+                    <div class="skill-bar">
+                        <div class="skill-fill creative"></div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- HOBBIES -->
+    <section id="hobbies" class="section hobbies">
+
+        <p class="section-label">
+            MY HOBBIES
+        </p>
+
+        <h2 class="section-title">
+            Hobi yang Saya <span>Sukai</span>
+        </h2>
+
+        <p class="section-subtitle">
+            Beberapa kegiatan yang saya senangi.
+        </p>
+
+
+        <div class="hobby-container">
+
+
+            <div class="hobby-card">
+
+                <div class="hobby-icon">
+                    💄
+                </div>
+
+                <h3>
+                    Makeup
+                </h3>
+
+                <p>
+                    Saya senang mempelajari berbagai teknik
+                    makeup dan mencoba berbagai gaya makeup.
+                </p>
+
+            </div>
+
+
+            <div class="hobby-card">
+
+                <div class="hobby-icon">
+                    🏹
+                </div>
+
+                <h3>
+                    Panahan
+                </h3>
+
+                <p>
+                    Panahan menjadi salah satu kegiatan yang
+                    saya sukai karena melatih fokus dan
+                    konsentrasi.
+                </p>
+
+            </div>
+
+
+            <div class="hobby-card">
+
+                <div class="hobby-icon">
+                    🍜
+                </div>
+
+                <h3>
+                    Kuliner
+                </h3>
+
+                <p>
+                    Saya suka mencoba makanan baru dan
+                    menikmati berbagai macam kuliner.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- CV -->
+    <section id="cv" class="cv-section">
+
+        <div class="cv-container">
+
+            <p class="section-label">
+                MY CV
+            </p>
+
+            <h2 class="section-title">
+                Curriculum <span>Vitae</span>
+            </h2>
+
+            <p class="cv-description">
+                Berikut adalah CV saya.
+            </p>
+
+
+            <!-- GAMBAR CV -->
+            <div class="cv-image-box">
+
+                <img
+                    src="C:\Users\rafap\Downloads\WhatsApp Image 2026-09-30 at 22.44.28.jpeg"
+                    alt="CV Raisa"
+                >
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- CONTACT -->
+    <section id="contact" class="contact-section">
+
+        <p class="section-label">
+            CONTACT ME
+        </p>
+
+        <h2>
+            Hubungi <span>Saya</span>
+        </h2>
+
+        <p>
+            Kamu dapat menghubungi saya melalui sosial media.
+        </p>
+
+
+        <div class="contact-container">
+
+            <a href="#" class="contact-card">
+
+                <div class="contact-icon">
+                    💬
+                </div>
+
+                <div>
+                    <h3>WhatsApp</h3>
+                    <p>Hubungi Saya</p>
+                </div>
+
+            </a>
+
+
+            <a href="#" class="contact-card">
+
+                <div class="contact-icon">
+                    📷
+                </div>
+
+                <div>
+                    <h3>Instagram</h3>
+                    <p>@raisa</p>
+                </div>
+
+            </a>
+
+
+            <a href="#" class="contact-card">
+
+                <div class="contact-icon">
+                    🎵
+                </div>
+
+                <div>
+                    <h3>TikTok</h3>
+                    <p>@raisa</p>
+                </div>
+
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- FOOTER -->
     <footer>
-        <p>&copy; 2026 Raissa Althaf Amira. All rights reserved.</p>
+
+        <h3>
+            Raisa
+        </h3>
+
+        <p>
+            Pelajar | Makeup & Panahan
+        </p>
+
+        <div class="footer-line"></div>
+
+        <p class="copyright">
+            © 2026 Raisa. All rights reserved.
+        </p>
+
     </footer>
+
 </body>
 </html>
